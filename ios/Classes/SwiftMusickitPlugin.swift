@@ -20,8 +20,6 @@ public class SwiftMusickitPlugin: NSObject, FlutterPlugin {
     
     public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
         switch call.method {
-            case "ping":
-                ping(result: result)
             case "appleMusicRequestPermission":
                 appleMusicRequestPermission(result: result)
             case "appleMusicCheckIfDeviceCanPlayback":
